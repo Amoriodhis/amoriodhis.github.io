@@ -1,0 +1,180 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #0A2540;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #0A2540;
+  color: #fff;
+}
+
+.navbar .logo svg {
+  height: 60px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin-left: 25px;
+}
+
+.navbar .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #0A2540, #0FA958);
+  color: #fff;
+  min-height: 90vh;
+}
+
+.hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background-color: #0FA958;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0D8B49;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #0A2540;
+}
+
+.btn-secondary:hover {
+  background-color: #f0f0f0;
+}
+
+/* Services Section */
+.services {
+  padding: 80px 50px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.services h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* About Section */
+.about {
+  padding: 80px 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.about ul {
+  margin-top: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Reviews Section */
+.reviews {
+  padding: 80px 50px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.review-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review-card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+.contact {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+.contact a.btn-primary {
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0A2540;
+  color: #fff;
+}
